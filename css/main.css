@@ -1,0 +1,97 @@
+body{
+font-family: 'Dosis', sans-serif;
+}
+
+.splash, .finish{
+  background-image: url("./../assets/images/lyft.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content{
+  background-image: url("./../assets/images/content.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+
+.log-in, .sing-up {
+  background-color: transparent;
+  position: relative;
+  left: 25vw;
+  top: 35vh;
+  padding: 5%;
+  color: #FFF;
+  margin: 1%;
+  border: 3px solid #FFF;
+  font-size:3vh;
+}
+
+.header{
+  text-align: center;
+  display: inline-block;
+}
+
+.header > h2,
+.header > h3 {
+  font-size: 4vh;
+}
+
+hr{
+  border: 2px solid gray;
+  width: 100%;
+}
+
+.previeus{
+  display: inline-block;
+  font-size: 9vh;
+  margin: 2%;
+}
+
+.next-button{
+  background-color: #e8e3e3;
+  font-size: 2vh;
+}
+
+#input-phone{
+  width: 60vw;
+  height: 8vh;
+  font-size: 4vh;
+}
+
+.ad-text{
+  text-align: center;
+  font-size: 3vh;
+}
+#btn-next > a,
+form > button > a{
+color: #000;
+font-size: 4vw;
+}
+
+form {
+  font-size: 3vh;
+}
+
+form > button {
+  margin: auto;
+}
+
+
+.input-group,
+.form-control{
+  height: 10vh;
+}
+.checkbox{
+  font-size: 4vh;
+  margin-left: 7%;
+}
